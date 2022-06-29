@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MahjongOnlineScoreCalculatorApp.Mājan">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" 
+                   CornerRadius="0"
+                   Padding="0"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Center"
+                   >
+                <Label Text="2500" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Frame BackgroundColor="#2196F3" 
+                   CornerRadius="0"
+                   Padding="0"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   >
+                <Label Text="2500" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Frame BackgroundColor="#2196F3" 
+                   CornerRadius="0"
+                   Padding="0"
+                   VerticalOptions="Center"
+                   HorizontalOptions="End"
+                   >
+                <Label Text="2500" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            
+            <Frame BackgroundColor="#2196F3" 
+                   CornerRadius="0"
+                   Padding="0"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="Center"
+                   >
+                <Label Text="2500" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+       
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
